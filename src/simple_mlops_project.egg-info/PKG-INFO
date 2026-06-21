@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: simple-mlops-project
+Version: 0.1.0
+Summary: Add your description here
+Home-page: https://github.com/Kalyan-udd/simple-mlops-project
+Author: Kalyan
+Author-email: kalyansaiuddagiri22@gmail.com
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools>=82.0.1
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
