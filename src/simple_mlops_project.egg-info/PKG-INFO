@@ -11,3 +11,5 @@ Requires-Dist: setuptools>=82.0.1
 Dynamic: author
 Dynamic: author-email
 Dynamic: home-page
+
+A simple project to implement MLOps workflow and learning about the statergies like Model serialization, etc.

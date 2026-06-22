@@ -1,10 +1,16 @@
-[2026-06-22 00:32:07,614]: creating directory research for the trail.ipynb.
-[2026-06-22 00:32:07,614]: creating research/trail.ipynb successful.
-[2026-06-22 00:32:07,615]: creating directory src for the __init__.py.
-[2026-06-22 00:32:07,615]: creating src/__init__.py successful.
-[2026-06-22 00:34:19,603]: creating directory research for the trail.ipynb.
-[2026-06-22 00:34:19,603]: research/trail.ipynb already exists.
-[2026-06-22 00:34:19,603]: creating directory src for the __init__.py.
-[2026-06-22 00:34:19,603]: creating src/__init__.py successful.
-[2026-06-22 00:34:19,604]: creating requirements.txt successful.
-[2026-06-22 00:34:19,604]: creating setup.py successful.
+[2026-06-22 22:34:20,454]: creating directory research for the trail.ipynb.
+[2026-06-22 22:34:20,454]: research/trail.ipynb already exists.
+[2026-06-22 22:34:20,455]: creating directory src for the __init__.py.
+[2026-06-22 22:34:20,455]: creating src/__init__.py successful.
+[2026-06-22 22:34:20,455]: creating directory src/ml_project for the logger.py.
+[2026-06-22 22:34:20,455]: src/ml_project/logger.py already exists.
+[2026-06-22 22:34:20,455]: creating directory src/ml_project for the __init__.py.
+[2026-06-22 22:34:20,455]: creating src/ml_project/__init__.py successful.
+[2026-06-22 22:34:20,455]: requirements.txt already exists.
+[2026-06-22 22:34:20,455]: setup.py already exists.
+[2026-06-22 22:34:20,455]: creating directory research for the Model.py.
+[2026-06-22 22:34:20,455]: research/Model.py already exists.
+[2026-06-22 22:34:20,455]: creating directory research for the __init__.py.
+[2026-06-22 22:34:20,455]: research/__init__.py already exists.
+[2026-06-22 22:35:25,953]: saving the model to file - artifacts/trained_model.joblib
+[2026-06-22 22:35:25,967]: serialisation successful. saved to artifacts/trained_model.joblib

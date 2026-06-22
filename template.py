@@ -16,8 +16,12 @@ logger = logging.basicConfig(level=logging.INFO,
 list_of_files = [
     "research/trail.ipynb",
     "src/__init__.py",
+    "src/ml_project/logger.py",
+    "src/ml_project/__init__.py",
     "requirements.txt",
-    "setup.py"
+    "setup.py",
+    "research/Model.py",
+    "research/__init__.py"
 ]
 
 for filepath in list_of_files:
