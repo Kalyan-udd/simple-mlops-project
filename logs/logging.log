@@ -612,3 +612,210 @@
 [2026-06-23 13:29:30,032]: [on.py: 76] - Application shutdown complete.
 [2026-06-23 13:29:30,032]: [server.py: 102] - Finished server process [12221]
 [2026-06-23 13:29:30,044]: [basereload.py: 115] - Stopping reloader process [12179]
+[2026-06-23 14:38:49,454]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:38:49,457]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:38:50,581]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:38:50,584]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:41:37,063]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:41:37,066]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:41:52,740]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:41:52,742]: [Model.    input_df = pd.DataFrame([data.model_dump()])
+        #model_dump() attribute converts the data into a python dictionary instead of something that could only be read by pydantic
+        prediction = model.predict(input_df)
+        if prediction[0] == 1:
+            result = "Fake Note"
+        else:
+            result = "Not a Fake Note"
+
+        return {
+            "status": "success",
+            "prediction": prediction[0],
+            "result": result
+        }py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:12,586]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:12,589]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:37,154]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:37,157]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:38,749]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:38,751]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:42,264]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:42,269]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:45,925]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:45,931]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:53,062]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:53,064]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:55,190]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:55,196]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:42:57,564]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:42:57,567]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:43:02,930]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:43:02,933]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:51:22,012]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:51:22,016]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:13,628]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:13,633]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:22,496]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:22,499]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:32,536]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:32,539]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:35,020]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:35,024]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:36,687]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:36,690]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:46,609]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:46,612]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:50,334]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:50,337]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:51,935]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:51,937]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:57:55,717]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:57:55,720]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:58:01,940]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:58:01,943]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 14:58:07,714]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 14:58:07,716]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:09:56,055]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:09:56,058]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:01,268]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:01,271]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:04,364]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:04,367]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:08,651]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:08,654]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:12,831]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:12,834]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:16,445]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:16,449]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:29,767]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:29,770]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:10:32,741]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:10:32,744]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:14:36,272]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:14:36,275]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:14:40,348]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:14:40,351]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:14:50,461]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:14:50,468]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:14:53,560]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:14:53,562]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:14:57,095]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:14:57,098]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:00,300]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:00,303]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:02,135]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:02,137]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:07,220]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:07,223]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:09,601]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:09,604]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:17,641]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:17,644]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:37,083]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:37,086]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:38,566]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:38,569]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:40,538]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:40,541]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:43,707]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:43,710]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:45,947]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:45,950]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:51,930]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:51,933]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:54,430]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:54,435]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:57,124]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:57,128]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:15:58,218]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:15:58,221]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:16:14,093]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:16:14,097]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:17:19,793]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:17:19,796]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:17:21,110]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:17:21,113]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:17:24,691]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:17:24,693]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:18:30,073]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:18:30,077]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:18:36,053]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:18:36,056]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:18:37,685]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:18:37,687]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:19:21,775]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:19:21,778]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:24:31,127]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:24:31,131]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:24:34,413]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:24:34,415]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:24:36,538]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:24:36,540]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:19,753]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:19,757]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:20,906]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:20,908]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:26,954]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:26,958]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:33,198]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:33,202]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:40,388]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:40,392]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:42,555]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:42,558]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:52,777]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:52,780]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:54,031]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:54,033]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:28:59,753]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:28:59,758]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:05,405]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:05,408]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:06,818]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:06,822]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:12,644]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:12,647]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:14,257]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:14,260]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:20,062]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:20,065]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:21,335]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:21,338]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:23,589]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:23,591]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:24,783]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:24,785]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:33,138]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:33,142]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:40,508]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:29:40,512]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:29:44,965]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:29:46,250]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:29:50,250]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:31:48,749]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:31:51,655]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:32:11,534]: [main.py: 34] - serve responded successfully
+[2026-06-23 15:32:41,333]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:32:42,976]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:33:06,609]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:33:37,858]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:33:39,790]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:33:42,167]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:34:14,721]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:34:19,346]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:34:48,584]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:35:04,945]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:35:08,183]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:36:38,642]: [main.py: 34] - serve responded successfully
+[2026-06-23 15:36:45,591]: [main.py: 16] - Home page is active...!
+[2026-06-23 15:37:00,465]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:40:59,681]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 15:40:59,684]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 15:41:03,849]: [main.py: 21] - tools page is active..!
+[2026-06-23 15:41:07,101]: [main.py: 16] - Home page is active...!
+[2026-06-23 21:48:16,051]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 21:48:16,053]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 21:48:17,023]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 21:48:17,025]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 21:48:23,034]: [main.py: 16] - Home page is active...!
+[2026-06-23 21:49:04,637]: [main.py: 21] - tools page is active..!
+[2026-06-23 21:49:38,732]: [main.py: 34] - server responded successfully
