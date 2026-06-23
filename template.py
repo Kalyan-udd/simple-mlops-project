@@ -7,7 +7,7 @@ logger_filepath = os.path.join("logs", "logging.log")
 os.makedirs("logs", exist_ok=True)
 
 logger = logging.basicConfig(level=logging.INFO, 
-                    format='[%(asctime)s]: %(message)s',
+                    format='[%(asctime)s]: %(filename)s - %(message)s',
                     handlers=[
                         logging.FileHandler(logger_filepath),
                         logging.StreamHandler(sys.stdout)]
@@ -21,7 +21,10 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "research/Model.py",
-    "research/__init__.py"
+    "research/__init__.py",
+    "schemas.py",
+    "templates/index.html",
+    "templates/'Predict.html"
 ]
 
 for filepath in list_of_files:

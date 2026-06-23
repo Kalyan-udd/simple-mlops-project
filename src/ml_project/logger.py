@@ -8,7 +8,7 @@ filepath = os.path.join(file_dir, "logging.log")
 
 logger = logging.basicConfig(
     level=logging.INFO,
-    format="[%(asctime)s]: %(message)s",
+    format="[%(asctime)s]: [%(filename)s: %(lineno)d] - %(message)s",
     handlers=[
         logging.FileHandler(filepath),
         logging.StreamHandler(sys.stdout)
