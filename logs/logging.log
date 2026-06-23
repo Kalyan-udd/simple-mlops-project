@@ -858,3 +858,23 @@
 [2026-06-23 22:28:23,816]: [main.py: 34] - server responded successfully
 [2026-06-23 22:28:23,996]: [main.py: 34] - server responded successfully
 [2026-06-23 22:28:24,191]: [main.py: 34] - server responded successfully
+[2026-06-23 23:43:43,486]: template.py - creating directory research for the trail.ipynb.
+[2026-06-23 23:43:43,487]: template.py - research/trail.ipynb already exists.
+[2026-06-23 23:43:43,487]: template.py - creating directory src for the __init__.py.
+[2026-06-23 23:43:43,487]: template.py - creating src/__init__.py successful.
+[2026-06-23 23:43:43,487]: template.py - creating directory src/ml_project for the logger.py.
+[2026-06-23 23:43:43,487]: template.py - src/ml_project/logger.py already exists.
+[2026-06-23 23:43:43,487]: template.py - creating directory src/ml_project for the __init__.py.
+[2026-06-23 23:43:43,487]: template.py - creating src/ml_project/__init__.py successful.
+[2026-06-23 23:43:43,487]: template.py - requirements.txt already exists.
+[2026-06-23 23:43:43,487]: template.py - setup.py already exists.
+[2026-06-23 23:43:43,487]: template.py - creating directory research for the Model.py.
+[2026-06-23 23:43:43,487]: template.py - research/Model.py already exists.
+[2026-06-23 23:43:43,487]: template.py - creating directory research for the __init__.py.
+[2026-06-23 23:43:43,487]: template.py - creating research/__init__.py successful.
+[2026-06-23 23:43:43,487]: template.py - schemas.py already exists.
+[2026-06-23 23:43:43,487]: template.py - creating directory templates for the index.html.
+[2026-06-23 23:43:43,487]: template.py - templates/index.html already exists.
+[2026-06-23 23:43:43,487]: template.py - creating directory templates for the 'Predict.html.
+[2026-06-23 23:43:43,487]: template.py - creating templates/'Predict.html successful.
+[2026-06-23 23:43:43,487]: template.py - creating vercel.json successful.
