@@ -27,7 +27,7 @@ async def ModelPrediction(data: BankNoteModel):
         input_df = DataFrame([data.model_dump()])
         #model_dump() attribute converts the data into a python dictionary instead of something that could only be read by pydantic
         prediction = model.predict(input_df)
-        if prediction[0] == 1:
+        if prediction[0] >= 0.5:
             result = "Fake Note"
         else:
             result = "Not a Fake Note"

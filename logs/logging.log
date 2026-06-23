@@ -819,3 +819,42 @@
 [2026-06-23 21:48:23,034]: [main.py: 16] - Home page is active...!
 [2026-06-23 21:49:04,637]: [main.py: 21] - tools page is active..!
 [2026-06-23 21:49:38,732]: [main.py: 34] - server responded successfully
+[2026-06-23 22:21:19,094]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 22:21:19,096]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 22:21:23,091]: [main.py: 16] - Home page is active...!
+[2026-06-23 22:22:16,144]: [main.py: 34] - server responded successfully
+[2026-06-23 22:23:44,937]: [main.py: 34] - server responded successfully
+[2026-06-23 22:23:47,037]: [main.py: 34] - server responded successfully
+[2026-06-23 22:23:47,598]: [main.py: 34] - server responded successfully
+[2026-06-23 22:23:47,825]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:30,230]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:32,001]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:32,196]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:32,383]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:32,586]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:32,780]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:32,961]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:33,126]: [main.py: 34] - server responded successfully
+[2026-06-23 22:24:33,313]: [main.py: 34] - server responded successfully
+[2026-06-23 22:25:46,448]: [main.py: 34] - server responded successfully
+[2026-06-23 22:25:47,640]: [main.py: 34] - server responded successfully
+[2026-06-23 22:25:47,849]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:26,138]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:26,589]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:26,783]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:26,978]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:27,585]: [main.py: 21] - tools page is active..!
+[2026-06-23 22:26:48,377]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:49,628]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:49,833]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:50,019]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:50,199]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:50,567]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:50,739]: [main.py: 34] - server responded successfully
+[2026-06-23 22:26:50,919]: [main.py: 34] - server responded successfully
+[2026-06-23 22:28:22,841]: [main.py: 34] - server responded successfully
+[2026-06-23 22:28:23,396]: [main.py: 34] - server responded successfully
+[2026-06-23 22:28:23,614]: [main.py: 34] - server responded successfully
+[2026-06-23 22:28:23,816]: [main.py: 34] - server responded successfully
+[2026-06-23 22:28:23,996]: [main.py: 34] - server responded successfully
+[2026-06-23 22:28:24,191]: [main.py: 34] - server responded successfully
