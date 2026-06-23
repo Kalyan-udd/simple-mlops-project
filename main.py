@@ -1,13 +1,14 @@
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 import joblib
-from research.Model import filepath
 from schemas import BankNoteModel
 from ml_project.logger import logger
 from pandas import DataFrame
 
 
 app = FastAPI()
+
+filepath = "artifacts/trained_model.joblib"
 
 model = joblib.load(filename=filepath)
 

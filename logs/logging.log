@@ -878,3 +878,7 @@
 [2026-06-23 23:43:43,487]: template.py - creating directory templates for the 'Predict.html.
 [2026-06-23 23:43:43,487]: template.py - creating templates/'Predict.html successful.
 [2026-06-23 23:43:43,487]: template.py - creating vercel.json successful.
+[2026-06-23 23:51:10,034]: [Model.py: 27] - saving the model to file - artifacts/trained_model.joblib
+[2026-06-23 23:51:10,038]: [Model.py: 31] - serialisation successful. saved to artifacts/trained_model.joblib
+[2026-06-23 23:51:18,313]: [main.py: 21] - tools page is active..!
+[2026-06-23 23:51:19,555]: [main.py: 16] - Home page is active...!
