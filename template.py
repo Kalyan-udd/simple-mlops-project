@@ -25,7 +25,8 @@ list_of_files = [
     "schemas.py",
     "templates/index.html",
     "templates/'Predict.html",
-    "vercel.json"
+    "vercel.json",
+    "Dockerfile"
 ]
 
 for filepath in list_of_files:

@@ -4,6 +4,7 @@ import joblib
 from schemas import BankNoteModel
 from src.ml_project.logger import logger
 from pandas import DataFrame
+import uvicorn
 
 app = FastAPI()
 
@@ -40,3 +41,6 @@ async def ModelPrediction(data: BankNoteModel):
     except Exception as e:
         logger.info(f"Error occurred - {e}")
 
+
+if __name__ == "__main__":
+    uvicorn.run("main.py", host="0.0.0.0", port= 8000, reload=False)
