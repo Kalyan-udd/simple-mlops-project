@@ -1,0 +1,48 @@
+*
+# =========================
+# Operating System Files
+# =========================
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# =========================
+# Python & FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Environments & Secrets
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+*.pem
+
+# =========================
+# Machine Learning & Data
+# =========================
+.ipynb_checkpoints/
+*.csv
+*.dat
+*.parquet
+*.db
+*.sqlite3
+
+# =========================
+# Vercel & Web Deployments
+# =========================
+.vercel/
+node_modules/
+dist/
+build/
+research/

@@ -26,7 +26,8 @@ list_of_files = [
     "templates/index.html",
     "templates/'Predict.html",
     "vercel.json",
-    "Dockerfile"
+    "Dockerfile",
+    ".dockerignore"
 ]
 
 for filepath in list_of_files:

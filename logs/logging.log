@@ -926,3 +926,25 @@
 [2026-06-24 12:07:19,293]: template.py - creating Dockerfile successful.
 [2026-06-24 12:48:28,188]: [main.py: 16] - Home page is active...!
 [2026-06-24 12:48:36,122]: [main.py: 21] - tools page is active..!
+[2026-06-24 22:45:38,306]: template.py - creating directory research for the trail.ipynb.
+[2026-06-24 22:45:38,315]: template.py - research/trail.ipynb already exists.
+[2026-06-24 22:45:38,315]: template.py - creating directory src for the __init__.py.
+[2026-06-24 22:45:38,315]: template.py - creating src/__init__.py successful.
+[2026-06-24 22:45:38,315]: template.py - creating directory src/ml_project for the logger.py.
+[2026-06-24 22:45:38,315]: template.py - src/ml_project/logger.py already exists.
+[2026-06-24 22:45:38,315]: template.py - creating directory src/ml_project for the __init__.py.
+[2026-06-24 22:45:38,315]: template.py - creating src/ml_project/__init__.py successful.
+[2026-06-24 22:45:38,316]: template.py - requirements.txt already exists.
+[2026-06-24 22:45:38,316]: template.py - setup.py already exists.
+[2026-06-24 22:45:38,316]: template.py - creating directory research for the Model.py.
+[2026-06-24 22:45:38,316]: template.py - research/Model.py already exists.
+[2026-06-24 22:45:38,316]: template.py - creating directory research for the __init__.py.
+[2026-06-24 22:45:38,316]: template.py - creating research/__init__.py successful.
+[2026-06-24 22:45:38,316]: template.py - schemas.py already exists.
+[2026-06-24 22:45:38,316]: template.py - creating directory templates for the index.html.
+[2026-06-24 22:45:38,316]: template.py - templates/index.html already exists.
+[2026-06-24 22:45:38,316]: template.py - creating directory templates for the 'Predict.html.
+[2026-06-24 22:45:38,316]: template.py - creating templates/'Predict.html successful.
+[2026-06-24 22:45:38,316]: template.py - vercel.json already exists.
+[2026-06-24 22:45:38,316]: template.py - Dockerfile already exists.
+[2026-06-24 22:45:38,316]: template.py - creating .dockerignore successful.
