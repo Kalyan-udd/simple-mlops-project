@@ -24,7 +24,7 @@ list_of_files = [
     "research/__init__.py",
     "schemas.py",
     "templates/index.html",
-    "templates/'Predict.html",
+    "templates/Predict.html",
     "vercel.json",
     "Dockerfile",
     ".dockerignore"
